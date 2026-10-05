@@ -1,0 +1,335 @@
+
+html {
+    font-family: 'TBC Contractica CAPS', sans-serif;
+}
+
+
+.container {
+    margin-inline: auto;
+    width: 75%;
+}
+
+.header {
+    height: 161px;   
+    position:relative;
+    z-index: 2;   
+    
+}
+
+.header-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.top-bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    padding-top: 44px;
+    margin-bottom: 40px;
+}
+
+
+.nav-container {
+    z-index: 2;
+    height: 100px;
+    background-color: #fff;
+    box-shadow: 0 15px 30px  rgba(0, 0, 0, 0.1);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 40px;
+    border-radius: 2px;
+}
+
+.top-bar-container a, span {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 68px;
+    width: auto;
+}   
+
+.logo-text {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #1F3960;
+    margin-left: 18px;
+}
+
+
+.nav-links a {
+    font-weight: 700;
+    font-size: 13px;
+    font-style: bold;
+    line-height: 16px;
+    color: #192C49;
+} 
+
+.nav-links-separator {
+    color: #192C49;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+.page-heading {
+    padding-top: 122px;
+}
+
+.page-heading h1 {
+    font-weight: 900;
+    font-size: 38px;
+    line-height: 16px;
+    color: #315788;
+}
+
+.breadcrumbs {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.breadcrumbs-separator {
+    height: 10px;
+    border: 1px solid #E5E5E5;
+    margin: 0 16px 0 16px;
+}
+
+.breadcrumbs-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #192C49;
+}
+
+.breadcrumbs-active {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #192C49;
+}
+
+
+.council-chairman {
+    display: flex;
+    align-items: center;
+    margin-top: 54px;
+}
+
+.chairman-background {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 267px;
+    z-index: -1;
+    background-color: #F1F6FF;
+}
+
+.chairman-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 60px;
+    
+}
+    
+.chairman-bio {
+  display: flex;
+  align-items: center;
+}
+
+.chairman-image {
+    width: 338px;
+    height: 338px;
+    padding-top: 90px;
+}
+
+.chairman-image img {
+    border-radius: 5px;
+}
+
+
+.chairman-title h1 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #666666;
+}
+
+.chairman-title p {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 16px;
+    color: #1F3960;
+    margin-top: 14px;
+}
+
+.chairman-bio {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #666666;
+}
+
+.btn{
+    height: 42px;
+    width: 42px;
+    margin-left: 14px;
+    background-color: #B54C7F;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50%;
+    border: none;
+}
+
+
+
+.council-members {
+    margin-top: 222px;
+}
+
+.council-members-header h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    color: #1F3960;
+}
+
+.devider {
+    display: flex;
+    align-items: end;
+    margin-top: 25px;
+    margin-bottom: 46px;
+    
+}
+.devider-line-pink {
+    width: 93px;
+    height: 4px;
+    background-color: #B54C7F;
+}
+
+.devider-line-gray {
+    width: 100px;
+    height: 1px;
+    background-color: #D9D9D9;
+    margin-right: 16px;
+}
+
+
+.members {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 32px;
+    row-gap: 34px;
+}
+
+
+.member {
+    display: flex;
+    align-items: center;
+    max-width: 460px;
+    width: 31%;
+    max-height: 176px;
+    border-style: solid;
+    border-width: 1.6px;
+    border-radius: 5px;
+    border-color: #EAF1FF;
+    box-shadow: 10px 10px 20px 10px #00000008; 
+}
+
+
+.member>img {
+    width: 126px;
+    height: 126px;
+    border-radius: 5px;
+    margin: 25px 29px 25px 29px;
+}
+
+
+.member-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+    gap: 27px;
+    height: 126px;
+}
+
+.member .btn {
+    width: 24px;
+    height: 24px;
+    margin-left: 0;
+    
+}
+
+
+.member-position {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #666666;
+}
+
+.member-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    color: #666666;
+    margin-top: 11px;
+}
+
+.member-active {
+    display: flex;
+    align-items: center;
+    width: 31%;
+    height: 176px;
+    border-style: solid;
+    border-width: 1.6px;
+    border-radius: 5px;
+    border-color: #B54C7F;
+}
+
+.footer {
+    margin-top: 210px;
+    background-color: #F1F6FF;
+    height: 440px;
+    position: relative;
+    z-index: -1;
+    
+}
+
+.footer-container {
+    position: absolute;
+    bottom: 50%;
+    height: 150px;
+    background-color: #fff;
+}
+
+.footer-bacground-img {
+    position: absolute;
+    bottom: 0;
+    height: 220px;
+    
+}

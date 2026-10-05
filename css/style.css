@@ -321,6 +321,8 @@ html {
 }
 
 .footer-container {
+    display: flex;
+    flex-direction: row;
     position: absolute;
     bottom: 35%;
     height: 155px;
@@ -345,3 +347,54 @@ html {
     height: 155px;
     background-color: #4C7FB5;
 }
+
+
+.footer-email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 34px;
+    width: 350px;
+    background-color: #F1F6FF;
+}
+
+.email-form {
+    margin-top: 13px
+}
+
+.footer-numbers {
+    display: flex;
+    align-items: center;
+    padding-left: 33px;
+}
+
+
+.numer-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.number-container {
+    display: flex;
+    flex-direction: column; 
+}
+
+.phone-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: #4C7FB5;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+
+.numbers{
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 15px;
+
+}
+

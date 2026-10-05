@@ -322,14 +322,26 @@ html {
 
 .footer-container {
     position: absolute;
-    bottom: 50%;
-    height: 150px;
+    bottom: 35%;
+    height: 155px;
     background-color: #fff;
+    z-index: 100;
+    left: 13%;
 }
+
+ 
 
 .footer-bacground-img {
     position: absolute;
     bottom: 0;
     height: 220px;
-    
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 155px;
+    height: 155px;
+    background-color: #4C7FB5;
 }
